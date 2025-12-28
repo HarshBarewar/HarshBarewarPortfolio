@@ -134,7 +134,7 @@ export function CertificationsSection() {
       <div ref={ref} className={`transition-all duration-1000 ${isVisible ? "opacity-100" : "opacity-0"}`}>
         <h2 className="text-4xl sm:text-5xl font-bold mb-12 text-balance">Certifications</h2>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {certifications.map((cert, index) => (
             <div
               key={cert.id}
